@@ -5,3 +5,4 @@ authors = ["Logan Collins <logan.neal.collins@gmail.com>"]
 
 [dependencies]
 qml = { git = "https://github.com/White-Oak/qml-rust" }
+rodio = "0.5.1"

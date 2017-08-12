@@ -29,6 +29,15 @@ Item {
                 spacing: 10
             }
         }
-        model: ListModel {}
+        model: ListModel {
+            ListElement {
+                name: "Song #1"
+                colorCode: "green"
+            }
+            ListElement {
+                name: "Song #2"
+                colorCode: "blue"
+            }
+        }
     }
 }
